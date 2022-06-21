@@ -2,7 +2,7 @@
 # $ poetry build
 # $ docker build -t ghcr.io/ep1cman/unifi-protect-backup .
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-edge
 
 LABEL maintainer="ep1cman"
 
